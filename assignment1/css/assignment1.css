@@ -58,8 +58,8 @@ div:nth-child(4)>.heading {
 /* Desktop styling */
 @media (min-width: 992px) {
   .col-lg-4 {
-    width: 31%;
-    margin: 45px 1% 15px 1%;
+    width: 32%;
+    margin: 45px 0 15px 1%;
     float: left;
   }
 }
@@ -67,8 +67,8 @@ div:nth-child(4)>.heading {
 /* Tablet styling */
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
-    width: 47%;
-    margin: 30px 1.5% 15px 1.5%;
+    width: 47.75%;
+    margin: 30px 0 15px 1.5%;
     float: left;
   }
   
