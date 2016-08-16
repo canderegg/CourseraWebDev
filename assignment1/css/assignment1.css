@@ -1,0 +1,88 @@
+/* Universal styling rules */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 175%;
+  margin: 20px;
+}
+
+body>div {
+  position: relative;
+}
+
+div {
+  border: solid 1px black;
+  background-color: #aaaaaa;
+}
+
+.heading {
+  font-size: 125%;
+  border-width: 0 0 1px 1px;
+  width: 200px;
+  padding: 3px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+}
+
+p {
+  margin-top: 45px;
+  padding: 10px;
+}
+
+/* Heading colors */
+
+div:nth-child(2)>.heading {
+  background-color: #FFBBBB;
+}
+
+div:nth-child(3)>.heading {
+  background-color: #CC0000;
+  color: white;
+}
+
+div:nth-child(4)>.heading {
+  background-color: #EEDD88;
+}
+
+/* Desktop styling */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 31%;
+    margin: 45px 1% 15px 1%;
+    float: left;
+  }
+}
+
+/* Tablet styling */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 47%;
+    margin: 30px 1.5% 15px 1.5%;
+    float: left;
+  }
+  
+  .col-md-12 {
+    width: 97%;
+    margin: 15px 1.5% 15px 1.5%;
+    clear: left;
+  }
+}
+
+/* Mobile styling */
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 96%;
+    margin: 15px 2%;
+  }
+}
