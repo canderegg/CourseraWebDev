@@ -1,0 +1,61 @@
+/* General styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEF;
+}
+
+/* Navbar styling */
+header, .navbar-default {
+  background-color: #008;
+  color: #FFF;
+  border-width: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+  font-size: 36px;
+}
+
+.navbar-default .navbar-brand:active, .navbar-default .navbar-brand:hover {
+  color: #DDD;
+}
+
+.navbar-default .navbar-toggle {
+  border: 1px solid #FFF;
+  margin-top: 25px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #004;
+  border: 1px solid #DDD;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: #DDD;
+}
+
+/* Dropdown styling */
+#navbar-dropdown {
+  border-width: 0;
+  clear: both;
+  background-color: #DDF;
+  font-size: 110%;
+}
+
+/* Body styling */
+
+#chicken div, #beef div, #sushi div{
+  background-color: #FFF;
+  padding: 15px;
+  margin-bottom: 30px;
+  border: 1px solid #AAA;
+}
+
+
